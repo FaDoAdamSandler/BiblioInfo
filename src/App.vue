@@ -1,12 +1,14 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+//<RouterLink to="/CadastroEditoras.vue">CadastroEditoras</RouterLink>
 </script>
 
 <template>
   <header>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      
+      <RouterLink to="/">BiblioInfo</RouterLink>
+      <RouterLink to="/about">Cadastro de Livros</RouterLink>
       <img src="@\components\icons\livroicon.png" class="LivroIco">
     </nav>
   </header>

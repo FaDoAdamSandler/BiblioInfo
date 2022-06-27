@@ -1,19 +1,19 @@
 <template>
-
-    
+<h1 class="Título">
+  BiblioInfo
+</h1>
+    <h2 class="ApeloEmocional">BiblioInfo é um projeto sem fins lucrativos que busca somente uma média boa em projeto integrador e afins, não fazemos ideia do que escrever aqui, então enchemos linguiça até o texto ter um tamanho consideravel, por isso eu continuo a escrever e você continua a ler. Só quero nota Eduardo, por obséquio me dê uma nota minimamente decente
+    </h2>
 </template>
 <style>
-.pedir{
-  margin-left: 1vh;
-}
-.Bottom {
-  height: 10vh;
-}
-.BoxLivro {
-  width: 100%;
-  box-shadow: 0.5px 0.5px 2.5px black;
-  padding: 1rem;
-  margin-bottom: 1vh;
-}
+.Título{
+  text-align: center;
 
+}
+.ApeloEmocional{
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 3%;
+}
 </style>
