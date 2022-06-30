@@ -54,8 +54,8 @@ export default {
             <td>{{ editora.id }}</td>
             <td>{{ editora.nome }}</td>
             <td>
-              <button>Editar</button>
-              <button @click="excluir(editora)">Excluir</button>
+              
+              <button class="acoes" @click="excluir(editora)">Excluir</button>
             </td>
           </tr>
         </tbody>
@@ -65,60 +65,4 @@ export default {
 </template>
 
 <style>
-.title {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
-.form-input {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-.form-input input {
-  width: 60%;
-  height: 40px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 0 10px;
-}
-
-.form-input button {
-  margin-left: 1%;
-  width: 20%;
-  height: 40px;
-  border: 1px solid rgb(36, 95, 127);
-  border-radius: 10px;
-  background-color: rgb(36, 95, 127);
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.list-editoras {
-  display: flex;
-  justify-content: center;
-}
-
-table {
-  width: 50%;
-  margin: 2% auto;
-  border-collapse: collapse;
-}
-
-table tr th {
-  border: 1px solid #ccc;
-  padding: 10px;
-  font-weight: bold;
-}
-
-table tr td {
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-table tr:nth-child(odd) {
-  background-color: #ccc;
-}
 </style>

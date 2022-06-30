@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-//<RouterLink to="/CadastroEditoras.vue">CadastroEditoras</RouterLink>
+
 </script>
 
 <template>
@@ -8,13 +8,15 @@ import { RouterLink, RouterView } from "vue-router";
     <nav>
       
       <RouterLink to="/">BiblioInfo</RouterLink>
-      <RouterLink to="/about">Cadastro de Livros</RouterLink>
+      <RouterLink to="/cadlivros">Cadastro de Livros</RouterLink>
+      <RouterLink to="/cadautores">Cadastro de Autores</RouterLink>
+      <RouterLink to="/cadeditoras">Cadastro de Editoras</RouterLink>
+      <RouterLink to="/cadcategorias">Cadastro de Categorias</RouterLink>
       <img src="@\components\icons\livroicon.png" class="LivroIco">
     </nav>
   </header>
 
   <RouterView />
-  <div class="footer fixed-bottom">BiblioInfo</div>
 </template>
 
 <style>
@@ -24,14 +26,7 @@ import { RouterLink, RouterView } from "vue-router";
   float: right;
   margin-right: 1em;
 }
-.footer {
-  line-height: 1.5;
-  max-height: 100vh;
-  padding: 1vh;
-  box-shadow: 1px 1px 5px black;
-  background-color: #181818;
-  
-}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
