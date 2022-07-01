@@ -52,6 +52,7 @@ body {
 
 table {
   width: 80%;
+  
   margin: 2% auto;
   border-collapse: collapse;
 }
@@ -74,4 +75,16 @@ table tr:nth-child(odd) {
   background-color: white;
   border: white;
   border-radius: 10px;
+}
+.categoria{
+  background-color: white;
+  border-radius: 10px;
+  border: #D9EBEA;
+  
+}
+.editora{
+  background-color: white;
+  border-radius: 10px;
+  border: #D9EBEA;
+  margin-left: 2%;
 }
