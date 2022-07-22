@@ -1,18 +1,16 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-
 </script>
 
 <template>
   <header>
     <nav>
-      
       <RouterLink to="/">BiblioInfo</RouterLink>
       <RouterLink to="/cadlivros">Cadastro de Livros</RouterLink>
       <RouterLink to="/cadautores">Cadastro de Autores</RouterLink>
       <RouterLink to="/cadeditoras">Cadastro de Editoras</RouterLink>
       <RouterLink to="/cadcategorias">Cadastro de Categorias</RouterLink>
-      <img src="@\components\icons\livroicon.png" class="LivroIco">
+      <img src="@\components\icons\livroicon.png" class="LivroIco" />
     </nav>
   </header>
 
@@ -21,7 +19,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style>
 @import "@/assets/base.css";
-.LivroIco{
+.LivroIco {
   height: 2em;
   float: right;
   margin-right: 1em;
@@ -63,5 +61,4 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
 </style>
