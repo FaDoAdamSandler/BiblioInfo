@@ -88,3 +88,7 @@ table tr:nth-child(odd) {
   border: #D9EBEA;
   margin-left: 2%;
 }
+.list-autores {
+  display: flex;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 import axios from 'axios';
 export default class LivrosApi {
-  async buscarTodosOsTimes() {
+  async buscarTodosOsLivros() {
     const response = await axios.get('http://localhost:4000/livros');
     return response.data;
   }
@@ -23,7 +23,7 @@ export default class LivrosApi {
   async atualizarLivro(livro) {
     const response = await axios.put(
       `http://localhost:4000/livros/${livro.id}`,
-      time,
+      livro,
     );
     return response.data;
   }
