@@ -48,6 +48,7 @@
                 <th>ID</th>
                 <th>Nome</th>
                 <th>Site</th>
+                <th>Ações</th>
               </tr>
             </thead>
             <tbody>
@@ -66,5 +67,5 @@
           </table>
         </div>
       </div>
-    </main>
+    </main> 
   </template>

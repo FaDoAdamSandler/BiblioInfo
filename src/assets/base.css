@@ -11,7 +11,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #D9EBEA;
+  background-color: #575068;
 }
 
 .title {
@@ -37,10 +37,10 @@ body {
   margin-left: 1%;
   width: 20%;
   height: 40px;
-  border: 1px solid rgb(173, 0, 189);
+  border: 1px solid #E1D8EF;
   border-radius: 10px;
-  background-color: rgb(173, 0, 189);
-  color: white;
+  background-color: #E1D8EF;
+  color: BLACK;
   font-weight: bold;
   cursor: pointer;
 }
@@ -58,28 +58,28 @@ table {
 }
 
 table tr th {
-  border: 1px solid #99CED4;
+  border: 3px solid #F29A30;
   padding: 10px;
   font-weight: bold;
 }
 
 table tr td {
-  border: 0px solid #99CED4;
+  border: 3px solid #F29A30;
   padding: 10px;
 }
 
 table tr:nth-child(odd) {
-  background-color: #99CED4;
+  background-color: #575068;
 }
 .acoes{
-  background-color: white;
-  border: white;
+  background-color: #E1D8EF;
+  border: #F29A30;
   border-radius: 10px;
 }
 .categoria{
-  background-color: white;
+  background-color: #E1D8EF;
   border-radius: 10px;
-  border: #D9EBEA;
+  border: #F29A30;
   
 }
 .editora{

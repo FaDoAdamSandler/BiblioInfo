@@ -11,7 +11,7 @@
 
 }
 .ApeloEmocional{
-  color: rgb(173, 0, 189);
+  color: WHITE;
   text-align: center;
   margin-left: 35%;
   margin-right: 35%;

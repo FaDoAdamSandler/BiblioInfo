@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/cadeditoras">Cadastro de Editoras</RouterLink>
       <RouterLink to="/cadcategorias">Cadastro de Categorias</RouterLink>
       <img src="@\components\icons\livroicon.png" class="LivroIco" />
-    </nav>
+    </nav> 
   </header>
 
   <RouterView />
